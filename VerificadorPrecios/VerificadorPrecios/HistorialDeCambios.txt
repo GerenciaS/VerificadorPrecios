@@ -1,0 +1,21 @@
+﻿HISTORIAL DE CAMBIOS
+16/Mayo/2022 - Eduardo Heredia 
+	- insertar registro en Bitácora BMS
+	- label de codigo mayor a seis caracteres
+	- quitar redondeo en promociones y/o descuentos. Solo se cambia el tipo de dato que regresaba el SqlRecord de Decimal a Real
+	- Salir de programa al hacer clic en logo inferior
+	- Se agrega en Titulo de Ventana de Windows la BD a la que apunta y el Establecimiento configurado
+
+13/Mayo/2022 - Eduardo Heredia 
+	- Se modifica Store Procedure, se agregan dos variables de retorno: Tipo de Bonificación y Descuento(% o $)
+
+10/Mayo/2022 - Eduardo Heredia 
+	- Se agrega Key "dispositivo" en App.Config para indicar el tipo de dispositivo donde se va desplegar la app. Las opciones son: 
+	a) pc 
+	b) verificador
+	- También consierar el App Key "establecimiento", por el tema de listas de precios. 
+	- - Se agregan la tecla Escape para la salida del programa
+
+06/Mayo/2022 - Eduardo Heredia 
+	- Se crea la primera versión del Verificador de Precios
+	
